@@ -1,0 +1,298 @@
+.page{
+      background-image: url(../img/bg_content01_sp.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: auto;
+}
+
+#Header{
+      background-color: #ffcd29;
+      width: 100vw;
+      border-bottom: solid 1px black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+#hamburger{
+      display: none;
+}
+.header-right{
+      position: fixed;
+      top: 70px;
+      right: -500px;
+      background-color: #ffe0318c;
+      width: 160px;
+      height: 90px;
+      transition: all .5s ease;
+}
+.header-right ul{
+      display: block;
+}
+.header-right li{
+      margin: 10px 10px 10px 17px;
+}
+#hamburger:checked ~ .header-right{
+      right: 0;
+}
+.hamburger{
+      width: 105px;
+      height: 31px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: solid 2px  #ae1f23;
+      border-radius: 4px;
+      color:  #ae1f23;
+}
+.hamburger:hover{
+      cursor: pointer;
+}
+.parallax_content{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+  
+.parallax_box {
+      height: 420px;
+      width: 600px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      margin-top: 50px;
+}
+  
+.img_bg_01{
+      background-image: url(../img/suraido/0901_kisetsugentei_aki_billboard_w717h502.jpeg);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      
+}
+.img_bg_02{
+      background-image: url(../img/suraido/1004_zeppinhamodukushi_billboard_h717h502.jpeg);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+  
+}
+.img_bg_03{
+      background-image: url(../img/suraido/1018_3kanmoridodekamori_kouhan_billboard_W717_H502.jpeg);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+  
+}
+.img_bg_04{
+      background-image: url(../img/suraido/20210000_betsubara_milktea_billboard_PC.jpeg);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+  
+}
+     
+.img_bg_05 {
+      background-image: url(../img/suraido/0611_cashless_billboard_w717h502.jpeg);
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+  
+}
+.hd_point img{
+      margin-top: 30px;
+}
+.para_take{
+      display: flex;
+      justify-content: center;
+}
+.take_box{
+      height: 300px;
+      margin: 90px 20px 20px 40px;
+}
+.osechi{
+      display: flex;
+      margin-top: 10px;
+      justify-content: space-between;
+}
+.menu{
+      margin-top: 30px;
+      display: flex;
+      margin: 20px 0 0 10px;
+      align-items: center;
+      justify-content: center;
+}
+.hd_maido{
+      width: 100vw;
+      display: flex;
+}
+.hd_maido h1{
+      margin: auto;
+      font-size: 42px;
+      color: #60432f;
+      font-family:  Georgia, 'HiraMinProN-W3', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro W3', 'Hiragino Mincho Pro', '平成明朝', '細明朝体', 'ＭＳ Ｐ明朝', 'MS P Mincho', serif;
+}
+.menu_ttl{
+      font-size: 40px;
+      color: #60432f;
+      font-family:  Georgia, 'HiraMinProN-W3', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro W3', 'Hiragino Mincho Pro', '平成明朝', '細明朝体', 'ＭＳ Ｐ明朝', 'MS P Mincho', serif;
+}
+.wrap {
+      display: flex;
+      align-items: center;
+      height: 340px;
+      overflow: hidden;
+}
+.slideshow {
+      display: flex;
+}
+.content {
+      width: 300px;
+      height: 300px;
+}
+.content1{
+      background-color: hsla(41, 100%, 60%, 0.884);
+      background-image: url(../img/kaiten/210623_2984.png);
+      width: 230px;
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 50%
+}
+.content2{
+      background-color: hsla(41, 100%, 60%, 0.884);
+      background-image: url(../img/kaiten/001_s_maguro.png.crdownload);
+      width: 230px;
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 50%
+}
+.content3{
+      background-color: hsla(41, 100%, 60%, 0.884);
+      background-image: url(../img/kaiten/181128_901.png);
+      width: 230px;
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 50%
+}
+.content4{
+      background-color: hsla(41, 100%, 60%, 0.884);
+      background-image: url(../img/kaiten/deza.png);
+      width: 230px;
+      height: 230px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 50%
+}
+.content5{
+      background-color: hsla(41, 100%, 60%, 0.884);
+      background-image: url(../img/kaiten/ju-su.png);
+      width: 230px;
+      height: 230px;
+      color: #60432f;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 50%
+}
+.slideshow > li{
+      color: #60432f;
+}
+.content{
+      transition: all 0.2s;
+}
+.content:hover{
+      transform: translateY(-20px);
+      border-radius: 50%;
+      border: solid 2px #ae1f23;
+      box-shadow: 0 3px 10px 0 #333;
+      opacity: 1;
+      cursor: pointer;
+}
+.slideshow {
+      display: flex;
+      animation: loop-slide 20s infinite linear 1s both;
+}
+@keyframes loop-slide {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+}
+.menubox{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 30px;
+}
+.menuname{
+      margin: auto;
+      color: #60432f;
+      font-size: 30px;
+      font-family: Georgia, 'HiraMinProN-W3', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro W3', 'Hiragino Mincho Pro', '平成明朝', '細明朝体', 'ＭＳ Ｐ明朝', 'MS P Mincho', serif;
+}
+a{
+      text-decoration: none;
+      color: #60432f;
+}
+.menubox > img{
+      margin: auto;
+      width: 1250px;
+      height: 700px;
+}
+.map{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+.map p{
+      margin: auto;
+      color: #60432f;
+      font-size: 30px;
+      font-family: Georgia, 'HiraMinProN-W3', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro W3', 'Hiragino Mincho Pro', '平成明朝', '細明朝体', 'ＭＳ Ｐ明朝', 'MS P Mincho', serif;
+}
+iframe{
+      margin: auto;
+      
+      
+}
+    
+footer {
+      height: 50px;
+      background-color: #ffcd29;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+
+
+
+
+
+/* ここからレスポンス */
+@media screen and (max-width: 780px) {
+      .para_take{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+      .menu_ttl{
+            font-size: 25px;
+      }
+      .menubox > img{
+            width: 100vw;
+            height: 400px;
+
+      }
+      .menu{
+            margin-top: 40px;
+      }
+      .hd_maido h1{
+            font-size: 33px;
+
+      }
+}

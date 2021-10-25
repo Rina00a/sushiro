@@ -1,3 +1,4 @@
+
 .page{
       background-image: url(../img/bg_content01_sp.jpeg);
       background-size: cover;
@@ -295,4 +296,46 @@ footer {
             font-size: 33px;
 
       }
+     
+
+}
+@media screen and (max-width: 400px) {
+      #Header{
+            width: 100%;          
+      }
+      body{
+            width: 100%;
+      }
+      .parallax_box {
+            height: 420px;
+            width: 100%;
+      }
+      .osechi img{
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+      }
+      .parallax_content{
+          background-size: 100% 420px;
+
+      }
+      .take_box{
+            display: flex;
+            flex-direction: column;
+            
+      }
+      img{
+            width: 100%;
+      }
+      .menu img{
+            display: none;
+            
+      }
+      .hd_maido h1{
+            font-size: 17px;
+      }
+
+
+
 }

@@ -332,6 +332,9 @@ footer {
             display: none;
             
       }
+      iframe{
+            width: 100%;
+      }
       .hd_maido h1{
             font-size: 17px;
       }
